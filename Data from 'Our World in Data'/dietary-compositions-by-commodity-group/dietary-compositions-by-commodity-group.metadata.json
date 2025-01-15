@@ -1,0 +1,195 @@
+{
+  "chart": {
+    "title": "Dietary compositions by commodity group",
+    "subtitle": "Average per capita dietary energy supply by commodity groups, measured in kilocalories per person per day.",
+    "citation": "Food and Agriculture Organization of the United Nations (2023)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/dietary-compositions-by-commodity-group?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "United States"
+    ]
+  },
+  "columns": {
+    "Daily calorie supply per person from other commodities": {
+      "titleShort": "Other",
+      "titleLong": "Other",
+      "descriptionKey": [
+        "This data represents the average daily per capita supply of calories from the full range of commodities, grouped by food categories. Note that these figures do not correct for waste at the household or consumption level, so they may not directly reflect the quantity of food finally consumed by a given individual.\n\nSpecific food commodities have been grouped into higher-level categories. Food group 'Other' includes the FAO item groups: 'Stimulants', 'Spices', 'Miscellaneous group', 'Offals group', 'Aquatic Products, Other'."
+      ],
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848453,
+      "shortName": "other",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data. “Other” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848453.metadata.json"
+    },
+    "Daily calorie supply per person from alcoholic beverages": {
+      "titleShort": "Alcoholic beverages",
+      "titleLong": "Alcoholic beverages",
+      "descriptionKey": [
+        "This data represents the average daily per capita supply of calories from the full range of commodities, grouped by food categories. Note that these figures do not correct for waste at the household or consumption level, so they may not directly reflect the quantity of food finally consumed by a given individual.\n\nSpecific food commodities have been grouped into higher-level categories. Food group 'Alcoholic beverages' includes the FAO item groups: 'Alcoholic Beverages'."
+      ],
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848452,
+      "shortName": "alcoholic_beverages",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data. “Alcoholic beverages” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848452.metadata.json"
+    },
+    "Daily calorie supply per person from sugar": {
+      "titleShort": "Sugar",
+      "titleLong": "Sugar",
+      "descriptionKey": [
+        "This data represents the average daily per capita supply of calories from the full range of commodities, grouped by food categories. Note that these figures do not correct for waste at the household or consumption level, so they may not directly reflect the quantity of food finally consumed by a given individual.\n\nSpecific food commodities have been grouped into higher-level categories. Food group 'Sugar' includes the FAO item groups: 'Sugar & Sweeteners', 'Sugar crops'."
+      ],
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848449,
+      "shortName": "sugar",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data. “Sugar” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848449.metadata.json"
+    },
+    "Daily calorie supply per person from oils and fats": {
+      "titleShort": "Oils and fats",
+      "titleLong": "Oils and fats",
+      "descriptionKey": [
+        "This data represents the average daily per capita supply of calories from the full range of commodities, grouped by food categories. Note that these figures do not correct for waste at the household or consumption level, so they may not directly reflect the quantity of food finally consumed by a given individual.\n\nSpecific food commodities have been grouped into higher-level categories. Food group 'Oils and fats' includes the FAO item groups: 'Treenuts', 'Oilcrops', 'Vegetable Oils', 'Animal fats group'."
+      ],
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848448,
+      "shortName": "oils_and_fats",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data. “Oils and fats” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848448.metadata.json"
+    },
+    "Daily calorie supply per person from meat": {
+      "titleShort": "Meat",
+      "titleLong": "Meat",
+      "descriptionKey": [
+        "This data represents the average daily per capita supply of calories from the full range of commodities, grouped by food categories. Note that these figures do not correct for waste at the household or consumption level, so they may not directly reflect the quantity of food finally consumed by a given individual.\n\nSpecific food commodities have been grouped into higher-level categories. Food group 'Meat' includes the FAO item groups: 'Meat, total', 'Fish and seafood'."
+      ],
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848450,
+      "shortName": "meat",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data. “Meat” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848450.metadata.json"
+    },
+    "Daily calorie supply per person from dairy and eggs": {
+      "titleShort": "Dairy and eggs",
+      "titleLong": "Dairy and eggs",
+      "descriptionKey": [
+        "This data represents the average daily per capita supply of calories from the full range of commodities, grouped by food categories. Note that these figures do not correct for waste at the household or consumption level, so they may not directly reflect the quantity of food finally consumed by a given individual.\n\nSpecific food commodities have been grouped into higher-level categories. Food group 'Dairy and eggs' includes the FAO item groups: 'Milk', 'Eggs'."
+      ],
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848451,
+      "shortName": "dairy_and_eggs",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data. “Dairy and eggs” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848451.metadata.json"
+    },
+    "Daily calorie supply per person from fruits and vegetables": {
+      "titleShort": "Fruits and vegetables",
+      "titleLong": "Fruits and vegetables",
+      "descriptionKey": [
+        "This data represents the average daily per capita supply of calories from the full range of commodities, grouped by food categories. Note that these figures do not correct for waste at the household or consumption level, so they may not directly reflect the quantity of food finally consumed by a given individual.\n\nSpecific food commodities have been grouped into higher-level categories. Food group 'Fruits and vegetables' includes the FAO item groups: 'Vegetables', 'Fruit'."
+      ],
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848447,
+      "shortName": "fruits_and_vegetables",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data. “Fruits and vegetables” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848447.metadata.json"
+    },
+    "Daily calorie supply per person from starchy roots": {
+      "titleShort": "Starchy roots",
+      "titleLong": "Starchy roots",
+      "descriptionKey": [
+        "This data represents the average daily per capita supply of calories from the full range of commodities, grouped by food categories. Note that these figures do not correct for waste at the household or consumption level, so they may not directly reflect the quantity of food finally consumed by a given individual.\n\nSpecific food commodities have been grouped into higher-level categories. Food group 'Starchy roots' includes the FAO item groups: 'Starchy Roots'."
+      ],
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848446,
+      "shortName": "starchy_roots",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data. “Starchy roots” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848446.metadata.json"
+    },
+    "Daily calorie supply per person from pulses": {
+      "titleShort": "Pulses",
+      "titleLong": "Pulses",
+      "descriptionKey": [
+        "This data represents the average daily per capita supply of calories from the full range of commodities, grouped by food categories. Note that these figures do not correct for waste at the household or consumption level, so they may not directly reflect the quantity of food finally consumed by a given individual.\n\nSpecific food commodities have been grouped into higher-level categories. Food group 'Pulses' includes the FAO item groups: 'Pulses'."
+      ],
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848445,
+      "shortName": "pulses",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data. “Pulses” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848445.metadata.json"
+    },
+    "Daily calorie supply per person from cereals and grains": {
+      "titleShort": "Cereals and grains",
+      "titleLong": "Cereals and grains",
+      "descriptionKey": [
+        "This data represents the average daily per capita supply of calories from the full range of commodities, grouped by food categories. Note that these figures do not correct for waste at the household or consumption level, so they may not directly reflect the quantity of food finally consumed by a given individual.\n\nSpecific food commodities have been grouped into higher-level categories. Food group 'Cereals and grains' includes the FAO item groups: 'Cereals - Excluding Beer'."
+      ],
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848444,
+      "shortName": "cereals_and_grains",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – processed by Our World in Data. “Cereals and grains” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848444.metadata.json"
+    }
+  },
+  "dateDownloaded": "2024-12-30",
+  "activeFilters": {}
+}

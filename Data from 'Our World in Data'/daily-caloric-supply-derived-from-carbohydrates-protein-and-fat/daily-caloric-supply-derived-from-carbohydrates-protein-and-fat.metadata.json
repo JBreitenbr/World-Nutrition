@@ -1,0 +1,83 @@
+{
+  "chart": {
+    "title": "Daily caloric supply derived from carbohydrates, protein and fat",
+    "subtitle": "The average per capita supply of calories derived from carbohydrates, protein and fat, all measured in kilocalories per person per day.",
+    "citation": "Food and Agriculture Organization of the United Nations (2023)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/daily-caloric-supply-derived-from-carbohydrates-protein-and-fat?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "United States"
+    ]
+  },
+  "columns": {
+    "Daily calorie supply per person that comes from animal protein": {
+      "titleShort": "Animal protein",
+      "titleLong": "Animal protein",
+      "descriptionKey": [],
+      "descriptionProcessing": "- The FAO provide annual figures from 1961 by country on daily caloric supply, fat supply (in grams), and protein supply (in grams). To calculate the daily per capita supply of carbohydrates, we assume an energy density by macronutrient of 4 kcal per gram of both protein and carbohydrate and 9 kcal per gram of fat (based on established nutritional guidelines reported by the FAO). The daily supply of carbohydrates is therefore calculated as:\n\n((Daily supply of kcal)-(Daily supply of protein * 4 + Daily supply of fat * 9)) / 4\n\n- The quantity of calories from each macronutrient is then calculated based on the energy density figures given above (e.g. calories from protein is calculated by multiplying the daily supply of protein in grams by 4).\n\n- For an explanation of these conversion factors, see \"Chapter 3: Calculation Of The Energy Content Of Foods - Energy Conversion Factors\", available at: http://www.fao.org/docrep/006/Y5022E/y5022e04.htm\n\n- The share of calories derived from each macronutrient is then calculated by dividing the number of calories derived from a given macronutrient by the total daily caloric supply.\n\n- Protein of animal origin includes protein supplied in the form of all meat commodities, eggs and dairy products, and fish & seafood.\n",
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848480,
+      "shortName": "energy_from_animal_protein",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – with major processing by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – with major processing by Our World in Data. “Animal protein – FAO” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848480.metadata.json"
+    },
+    "Daily calorie supply per person that comes from vegetal protein": {
+      "titleShort": "Plant protein",
+      "titleLong": "Plant protein",
+      "descriptionKey": [],
+      "descriptionProcessing": "- The FAO provide annual figures from 1961 by country on daily caloric supply, fat supply (in grams), and protein supply (in grams). To calculate the daily per capita supply of carbohydrates, we assume an energy density by macronutrient of 4 kcal per gram of both protein and carbohydrate and 9 kcal per gram of fat (based on established nutritional guidelines reported by the FAO). The daily supply of carbohydrates is therefore calculated as:\n\n((Daily supply of kcal)-(Daily supply of protein * 4 + Daily supply of fat * 9)) / 4\n\n- The quantity of calories from each macronutrient is then calculated based on the energy density figures given above (e.g. calories from protein is calculated by multiplying the daily supply of protein in grams by 4).\n\n- For an explanation of these conversion factors, see \"Chapter 3: Calculation Of The Energy Content Of Foods - Energy Conversion Factors\", available at: http://www.fao.org/docrep/006/Y5022E/y5022e04.htm\n\n- The share of calories derived from each macronutrient is then calculated by dividing the number of calories derived from a given macronutrient by the total daily caloric supply.\n\n- Protein of animal origin includes protein supplied in the form of all meat commodities, eggs and dairy products, and fish & seafood.\n",
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848482,
+      "shortName": "energy_from_vegetal_protein",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – with major processing by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – with major processing by Our World in Data. “Plant protein – FAO” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848482.metadata.json"
+    },
+    "Daily calorie supply per person from fat": {
+      "titleShort": "Fat",
+      "titleLong": "Fat",
+      "descriptionKey": [],
+      "descriptionProcessing": "- The FAO provide annual figures from 1961 by country on daily caloric supply, fat supply (in grams), and protein supply (in grams). To calculate the daily per capita supply of carbohydrates, we assume an energy density by macronutrient of 4 kcal per gram of both protein and carbohydrate and 9 kcal per gram of fat (based on established nutritional guidelines reported by the FAO). The daily supply of carbohydrates is therefore calculated as:\n\n((Daily supply of kcal)-(Daily supply of protein * 4 + Daily supply of fat * 9)) / 4\n\n- The quantity of calories from each macronutrient is then calculated based on the energy density figures given above (e.g. calories from protein is calculated by multiplying the daily supply of protein in grams by 4).\n\n- For an explanation of these conversion factors, see \"Chapter 3: Calculation Of The Energy Content Of Foods - Energy Conversion Factors\", available at: http://www.fao.org/docrep/006/Y5022E/y5022e04.htm\n\n- The share of calories derived from each macronutrient is then calculated by dividing the number of calories derived from a given macronutrient by the total daily caloric supply.\n\n- Protein of animal origin includes protein supplied in the form of all meat commodities, eggs and dairy products, and fish & seafood.\n",
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848473,
+      "shortName": "total_energy_from_fat",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – with major processing by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – with major processing by Our World in Data. “Fat – FAO” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848473.metadata.json"
+    },
+    "Daily calorie supply per person from carbohydrates": {
+      "titleShort": "Carbohydrates",
+      "titleLong": "Carbohydrates",
+      "descriptionKey": [],
+      "descriptionProcessing": "- The FAO provide annual figures from 1961 by country on daily caloric supply, fat supply (in grams), and protein supply (in grams). To calculate the daily per capita supply of carbohydrates, we assume an energy density by macronutrient of 4 kcal per gram of both protein and carbohydrate and 9 kcal per gram of fat (based on established nutritional guidelines reported by the FAO). The daily supply of carbohydrates is therefore calculated as:\n\n((Daily supply of kcal)-(Daily supply of protein * 4 + Daily supply of fat * 9)) / 4\n\n- The quantity of calories from each macronutrient is then calculated based on the energy density figures given above (e.g. calories from protein is calculated by multiplying the daily supply of protein in grams by 4).\n\n- For an explanation of these conversion factors, see \"Chapter 3: Calculation Of The Energy Content Of Foods - Energy Conversion Factors\", available at: http://www.fao.org/docrep/006/Y5022E/y5022e04.htm\n\n- The share of calories derived from each macronutrient is then calculated by dividing the number of calories derived from a given macronutrient by the total daily caloric supply.\n\n- Protein of animal origin includes protein supplied in the form of all meat commodities, eggs and dairy products, and fish & seafood.\n",
+      "shortUnit": "kcal",
+      "unit": "kilocalories per day per capita",
+      "timespan": "1961-2021",
+      "type": "Numeric",
+      "owidVariableId": 848475,
+      "shortName": "total_energy_from_carbohydrates",
+      "lastUpdated": "2024-03-14",
+      "nextUpdate": "2025-03-14",
+      "citationShort": "Food and Agriculture Organization of the United Nations (2023) – with major processing by Our World in Data",
+      "citationLong": "Food and Agriculture Organization of the United Nations (2023) – with major processing by Our World in Data. “Carbohydrates – FAO” [dataset]. Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (-2013, old methodology and population)”; Food and Agriculture Organization of the United Nations, “Food Balances: Food Balances (2010-)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/848475.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-01-14",
+  "activeFilters": {}
+}
