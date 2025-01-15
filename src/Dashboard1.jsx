@@ -1,12 +1,11 @@
 import React, { useState,useEffect } from "react";
 import { Box,Select,MenuItem,Grid  } from "@mui/material";
 import { ResponsiveChartContainer } from '@mui/x-charts/ResponsiveChartContainer';
-import { AreaPlot,MarkPlot } from "@mui/x-charts/LineChart";
+import { AreaPlot} from "@mui/x-charts/LineChart";
 import { ChartsTooltip, ChartsXAxis, ChartsYAxis,ChartsGrid,ChartsLegend} from '@mui/x-charts';
 import RamenDiningIcon from '@mui/icons-material/RamenDining';
 import SetMealIcon from '@mui/icons-material/SetMeal';
 import LegendElement from './helpers/LegendElement'
-import LegendItem from './helpers/LegendItem'
 const yLabels = [1000,2000,3000,4000,5000];
 
 const Chart1 = () => {
