@@ -40,7 +40,7 @@ let tArr2=[eur2,asia2,africa2,namerica2,samerica2,oceania2];
 const [w, setW]=useState(window.innerWidth);
 const [h, setH]=useState(window.innerHeight);
 const years= ["1992","1993","1994","1995","1996","1997","1998","1999","2000","2001","2002","2003","2004","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2016","2017","2018","2019","2020","2021"];
-const baseUrl='https://raw.githubusercontent.com/JBreitenbr/MUI-Navbar/refs/heads/main/src/Data/';
+const baseUrl='https://raw.githubusercontent.com/JBreitenbr/World-Nutrition/refs/heads/main/src/Data/';
 for(let pair of conts1){
   useEffect(() =>{
     fetch(baseUrl+"lex.json")
