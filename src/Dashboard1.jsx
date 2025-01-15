@@ -96,7 +96,7 @@ carbohydrates, protein and fat,  {country}, 1992 to 2021
 </Box>
                 </Box><Box sx={{width:"100%"}}><ResponsiveChartContainer series={serArr1} xAxis={[{ scaleType: "point", data: years}]} yAxis={[{ scaleType: "linear",data: yLabels}]}  height={w<1400?(w<1100?(w<700?200:300):500):650} >
           <ChartsGrid horizontal={true} /><AreaPlot/>{w>400?<ChartsLegend/>:<></>}<ChartsXAxis label="Year" />
-<ChartsYAxis label="Calories (kcal)" valueFormatter={(item)=>`${item/1000}K`}/>
+<ChartsYAxis label="kcal/day" valueFormatter={(item)=>`${item/1000}K`}/>
           <ChartsTooltip /></ResponsiveChartContainer>
                 </Box>
 <Box sx={{display:"flex",flexDirection:"row",gap:"5px",marginBottom:"5px",marginLeft:"30px"}}>
@@ -111,7 +111,7 @@ carbohydrates, protein and fat,  {country}, 1992 to 2021
                 </Box>
   <Box sx={{"width":"100%"}}>
   <ResponsiveChartContainer series={serArr2} xAxis={[{ scaleType: "point", data: years}]} yAxis={[{ scaleType: "linear",data:yLabels }]}
-    height={w<1400?(w<1100?(w<700?200:300):500):650}  ><ChartsGrid horizontal={true}/><AreaPlot/>{w>400?<ChartsLegend/>:<></>}<ChartsXAxis label="Year"/><ChartsYAxis label="Grams (g)"/><ChartsTooltip/></ResponsiveChartContainer>
+    height={w<1400?(w<1100?(w<700?200:300):500):650}  ><ChartsGrid horizontal={true}/><AreaPlot/>{w>400?<ChartsLegend/>:<></>}<ChartsXAxis label="Year"/><ChartsYAxis label="g/day"/><ChartsTooltip/></ResponsiveChartContainer>
   </Box><Box sx={{display:"flex",flexDirection:"row",gap:"5px",marginBottom:"5px",marginLeft:"30px"}}><Box sx={{display:"flex"}}>{w<400?(colored2.map((el,index)=>(<LegendElement key={index} color={el[1]} txt={el[2]} qSize="12px" fSize="10px"/>))):(<></>)}</Box>
 </Box></Grid></Grid>
 </Box>
