@@ -124,7 +124,7 @@ type, {country}, 1992 to 2021
   <ResponsiveChartContainer series={serArr2.reverse()} xAxis={[{ scaleType: "point", data: years}]} yAxis={[{ scaleType: "linear", data: yLabels, label:"Grams" }]}
         height={w<1400?(w<1100?(w<700?200:300):470):650}
     ><ChartsGrid horizontal={true}/><AreaPlot/><ChartsXAxis label="Year"/><ChartsYAxis label="Kilograms (kg)"/><ChartsTooltip/></ResponsiveChartContainer>
-  </Box><Box sx={{display:"flex",flexDirection:"row",gap:"5px",marginBottom:"5px",marginLeft:"30px"}}><Box sx={{display:"flex",marginLeft:"2vw"}}>{w<1200?(w<700?(colored2.map((el,index)=>(<LegendElement key={index} color={el[1]} txt={el[2]} qSize="12px" fSize="10px"/>))):(colored2.map((el,index)=><LegendElement key={index} color={el[1]} txt={el[2]} qSize="18px" fSize="14px"/>))):(colored2.map((el,index)=><LegendElement key={index} color={el[1]} txt={el[2]} qSize="25px" fSize="20px"/>))}</Box>
+  </Box><Box sx={{display:"flex",flexDirection:"row",gap:"5px",marginBottom:"5px",marginLeft:"30px"}}><Box sx={{display:"flex",marginLeft:"2vw"}}>{w<1200?(w<700?(colored2.map((el,index)=>(<LegendElement key={index} color={el[1]} txt={el[2]} qSize="12px" fSize="10px"/>)).reverse()):(colored2.map((el,index)=><LegendElement key={index} color={el[1]} txt={el[2]} qSize="18px" fSize="14px"/>)).reverse()):(colored2.map((el,index)=><LegendElement key={index} color={el[1]} txt={el[2]} qSize="25px" fSize="20px"/>)).reverse()}</Box>
 </Box></Grid></Grid>
 </Box>
   );
